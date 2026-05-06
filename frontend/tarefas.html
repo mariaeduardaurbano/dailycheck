@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="carregarTarefas()">
+    <header>
+      <h1>Daily Check</h1>
+
+      <div class="header-actions">
+        <button onclick="abrirModal()">+ Nova Tarefa</button>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="temperatura.html">Temperatura</a>
+        <a href="tarefas.html">Tarefas</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Gerenciar Tarefas</h2>
+      <div class="container-cards" id="lista-tarefas"></div>
+    </main>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2>Nova Tarefa</h2>
+
+        <input type="text" id="nome" placeholder="Nome da tarefa" />
+        <input type="text" id="dataInicio"  placeholder="Data de início"/>
+        <input type="text" id="dataFim" placeholder="Data de término"/>
+        <input type="text" id="img" placeholder="URL da imagem" />
+        <input type="text" id="descricao" placeholder="Descrição" />
+
+        <div class="modal-buttons">
+          <button onclick="salvarTarefa()">Salvar</button>
+          <button onclick="fecharModal()">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>© 2026 Maria Eduarda Urbano</p>
+    </footer>
+  </body>
+</html>

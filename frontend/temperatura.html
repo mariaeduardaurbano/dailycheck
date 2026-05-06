@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Daily Check</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="temperatura.html">Temperatura</a>
+        <a href="tarefas.html">Tarefas</a>
+      </nav>
+    </header>
+
+    <nav class="navbar">
+      <input class="input-cidade" placeholder="Digite o nome da cidade"/>
+      <button class="botao-busca" onclick="cliqueiNoBotao()">
+        <img
+          class="img-busca"
+          src="https://www.svgrepo.com/show/502828/search.svg"
+        />
+      </button>
+    </nav>
+
+    <div class="card-tempo">
+      <h2 class="cidade">Tempo em São Paulo</h2>
+      <p class="temp">21°C</p>
+
+      <div class="caixa-menor">
+        <p class="texto-previsao">Nublado</p>
+      </div>
+
+      <p class="umidade">Umidade: 70%</p>
+    </div>
+
+    <div class="container-cards"></div>
+
+    <script src="script2.js"></script>
+
+    <footer>
+      <p>© 2026 Maria Eduarda Urbano</p>
+    </footer>
+  </body>
+</html>
