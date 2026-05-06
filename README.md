@@ -3,7 +3,6 @@
 > Seu hub diário de tarefas e clima — tudo em um só lugar.
 
 ![Daily Check Banner](https://img.shields.io/badge/Daily-Check-4F46E5?style=for-the-badge&logo=checkmarx&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -48,9 +47,9 @@
 
 | Camada | Tecnologia |
 |--------|-----------|
-| Frontend | Next.js / React |
-| Estilização | Tailwind CSS |
-| Backend | Next.js API Routes |
+| Frontend | JavaScript |
+| Estilização |  CSS |
+| Backend | JavaScript API Routes |
 | ORM | Prisma |
 | Banco de Dados | PostgreSQL (ou SQLite para dev) |
 | API de Clima | OpenWeatherMap API |
@@ -197,7 +196,4 @@ A página de Temperatura utiliza a **OpenWeatherMap API** (plano gratuito suport
 
 ---
 
-Feito com 💜 por **[Maria Eduarda Urbano](https://github.com/seu-usuario)**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/seu-usuario)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+Feito com 💜 por **[Maria Eduarda Urbano](https://github.com/mariaeduardaurbano**
